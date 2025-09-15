@@ -1,0 +1,14 @@
+echo "# Ignore macOS files
+.DS_Store
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore temp scripts you don't want in repo
+data_prep.py
+map.py
+
+# Ignore unwanted CSVs
+countrycare_stores_selenium.csv
+" > .gitignore
